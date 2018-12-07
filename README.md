@@ -12,8 +12,8 @@ curl -X GET https://auto-credit.herokuapp.com/user/29909
 The options for user id please refer to ID column in [val_df.csv](https://github.com/thtang/auto-credit/blob/master/val_df.csv).
 
 #### Output Json:
-```
-{FICO_score: "509.009864269",
- original_prob: "0.224166",
- user_id: "29909"}
+```JSON
+{"FICO_score": "509.009864269",
+ "original_prob": "0.224166",
+ "user_id": "29909"}
 ```
