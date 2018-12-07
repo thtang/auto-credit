@@ -2,11 +2,11 @@
 Automatically provide credit score for a given customer based on his/her history payment data.
 ## Usage
 ```
-curl -X https://auto-credit.herokuapp.com/user/{user id}
+curl -X GET https://auto-credit.herokuapp.com/user/{user id}
 ```
 For example:
 ```
-curl -X https://auto-credit.herokuapp.com/user/29909
+curl -X GET https://auto-credit.herokuapp.com/user/29909
 ```
 
 The options for user id please refer to ID column in [val_df.csv](https://github.com/thtang/auto-credit/blob/master/val_df.csv).
